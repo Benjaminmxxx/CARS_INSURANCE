@@ -66,10 +66,13 @@ Nota: Se recomienda revisar el Flujo Documentado del Proceso para obtener una co
 
 ## Ejecución
 
-Clonar el repositorio desde GitHub.
-Installar (pip install requierements.txt) mediante la consulta el archivo [requierements.txt](./requirements.txt)
-Ejecutar el script en Python para realizar el análisis.
-Explorar los resultados en la consola de salida y o en el informe generado en la carpeta.
+-Clonar el repositorio desde GitHub.
+
+-Installar (pip install requierements.txt) mediante la consulta el archivo [requierements.txt](./requirements.txt)
+
+-Ejecutar el script en Python para realizar el análisis.
+
+-Explorar los resultados en la consola de salida y o en el informe generado en la carpeta.
 
 
 
