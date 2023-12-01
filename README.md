@@ -2,6 +2,14 @@
 Generación de SCRIP para obtener insights del negoció y un reporte PDF automático.
 
 
+## Tabla de Contenidos
+- [Descripción General](#descripción-general)
+- [Productos entregados](#productos-entregados)
+- [Análisis Exploratorio de Datos (EDA)](#análisis-Exploratorio-de-Datos-(EDA))
+- [Documentación del flujo del Scrip.py](#documentación-del-flujo-del-Scrip.py)
+- [Ejecución](#Ejecución)
+
+
 ## Descripción General
 
 El proyecto "Crabi Data Analysis" se centra en analizar y comprender diversos aspectos relacionados con las pólizas de seguros de Crabi, con un enfoque especial en la ocurrencia de siniestros. La información se extrae de la carpeta [Archivos](./Archivos/) proporcionada por Crabi. El análisis aborda conceptos clave como siniestralidad, reservas, servicios, severidad, y otros aspectos relevantes del ciclo de vida de una póliza de seguro.
