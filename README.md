@@ -5,8 +5,8 @@ Generación de SCRIP para obtener insights del negoció y un reporte PDF automá
 ## Tabla de Contenidos
 - [Descripción General](#descripción-general)
 - [Productos entregados](#productos-entregados)
-- [Análisis Exploratorio de Datos (EDA)](#análisis-Exploratorio-de-Datos-(EDA))
-- [Documentación del flujo del Scrip.py](#documentación-del-flujo-del-Scrip.py)
+- [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-(EDA))
+- [Documentación del flujo del Scrip.py](#documentación-del-flujo-del-scrip.py)
 - [Ejecución](#Ejecución)
 
 
