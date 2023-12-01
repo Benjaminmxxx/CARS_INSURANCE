@@ -32,7 +32,7 @@ def create_pdf(result,max_sin,min_sin,max_sines,max_prom_sev,min_sines,min_prom_
         y_position -= 20
 
     # Agregar una imagen al informe (reemplaza 'ruta_de_la_imagen' con la ruta de tu imagen)
-    imagen_path = 'Siniestralidad_Mensual.png'
+    imagen_path = './Graficos/Siniestralidad_Mensual.png'
     pdf_canvas.drawInlineImage(imagen_path, 100, height - 400, width=400, height=200)
 
     y_position = height - 440
@@ -70,7 +70,7 @@ def create_pdf(result,max_sin,min_sin,max_sines,max_prom_sev,min_sines,min_prom_
         y_position -= 30
     
     # Agregar una imagen al informe (reemplaza 'ruta_de_la_imagen' con la ruta de tu imagen)
-    imagen_path = 'Siniestros.png'
+    imagen_path = './Graficos/Siniestros.png'
     pdf_canvas.drawInlineImage(imagen_path, 100, height - 760, width=400, height=200)
 
     pdf_canvas.showPage()
@@ -125,10 +125,10 @@ def create_pdf(result,max_sin,min_sin,max_sines,max_prom_sev,min_sines,min_prom_
         y_position -= 30
     
     # Agregar una imagen al informe (reemplaza 'ruta_de_la_imagen' con la ruta de tu imagen)
-    imagen_path = 'Siniestralidad_Partner.png'
+    imagen_path = './Graficos/Siniestralidad_Partner.png'
     pdf_canvas.drawInlineImage(imagen_path, 100, height - 500, width=400, height=200)
 
-    imagen_path = 'Siniestralidad_Promedio_Partner.png'
+    imagen_path = './Graficos/Siniestralidad_Promedio_Partner.png'
     pdf_canvas.drawInlineImage(imagen_path, 100, height - 700, width=400, height=200)
 
     pdf_canvas.showPage()
@@ -144,7 +144,7 @@ def create_pdf(result,max_sin,min_sin,max_sines,max_prom_sev,min_sines,min_prom_
     y_position -= 20
     pdf_canvas.drawString(100, y_position, f"Rango etario menor: {(rango_menor)}")
     
-    imagen_path = 'RangoEtario.png'
+    imagen_path = './Graficos/RangoEtario.png'
     pdf_canvas.drawInlineImage(imagen_path, 100, height - 350, width=400, height=200)
     
     y_position -= 20
@@ -163,7 +163,7 @@ def create_pdf(result,max_sin,min_sin,max_sines,max_prom_sev,min_sines,min_prom_
 
     y_position = height - 500
     
-    imagen_path = 'Severidad_Etario.png'
+    imagen_path = './Graficos/Severidad_Etario.png'
     pdf_canvas.drawInlineImage(imagen_path, 100, height - 650, width=400, height=200)
     
     # Guardar el PDF

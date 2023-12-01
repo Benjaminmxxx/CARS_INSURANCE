@@ -89,7 +89,7 @@ plt.grid(axis='y')
 for p in ax.patches:
     ax.annotate(f"{p.get_height():,.2f}", (p.get_x() + p.get_width() / 2., p.get_height()),
                 ha='center', va='center', xytext=(0, -10), textcoords='offset points')
-plt.savefig('Siniestralidad_Mensual.png')
+plt.savefig('./Graficos/Siniestralidad_Mensual.png')
 # Mostrar el gráfico
 #plt.show() #Quitar el "#" si se quiere mostrar el gráfico.
 
@@ -135,7 +135,7 @@ plt.legend(title='Descripción')
 for p in ax.patches:
     ax.annotate(f'{p.get_width()}', (p.get_x() + p.get_width() + 5, p.get_y() + p.get_height() / 2), ha='center', va='center')
 #Save
-plt.savefig('Siniestros.png')
+plt.savefig('./Graficos/Siniestros.png')
 
 # Mostrar el gráfico
 #plt.show() #Quitar el "#" si se quiere mostrar el gráfico.
@@ -193,7 +193,7 @@ plt.grid(axis='y')
 for p in ax.patches:
     ax.annotate(f"{p.get_height():,.2f}", (p.get_x() + p.get_width() / 2., p.get_height()),
                 ha='center', va='center', xytext=(0, -10), textcoords='offset points')
-plt.savefig('Siniestralidad_Partner.png')
+plt.savefig('./Graficos/Siniestralidad_Partner.png')
 # Mostrar el gráfico
 #plt.show() #Quitar el "#" si se quiere mostrar el gráfico.
 
@@ -250,7 +250,7 @@ def autolabel(bars):
 autolabel(ax)
 
 # Mostrar el gráfico
-plt.savefig('Siniestralidad_Promedio_Partner.png')
+plt.savefig('./Graficos/Siniestralidad_Promedio_Partner.png')
 # Mostrar el gráfico
 #plt.show() #Quitar el "#" si se quiere mostrar el gráfico.
 
@@ -322,7 +322,7 @@ for p in ax.patches:
     ax.annotate(f"{p.get_height():,.2f}", (p.get_x() + p.get_width() / 2., p.get_height()),
                 ha='center', va='center', xytext=(0, 4), textcoords='offset points')
 plt.xticks(rotation=0, ha="right")
-plt.savefig('RangoEtario.png')
+plt.savefig('./Graficos/RangoEtario.png')
 
 # Mostrar el gráfico
 #plt.show() #Quitar el "#" si se quiere mostrar el gráfico.
@@ -381,7 +381,7 @@ def autolabel(bars):
 autolabel(ax)
 
 # Mostrar el gráfico
-plt.savefig('Severidad_Etario.png')
+plt.savefig('./Graficos/Severidad_Etario.png')
 # Mostrar el gráfico
 #plt.show() #Quitar el "#" si se quiere mostrar el gráfico.
 
