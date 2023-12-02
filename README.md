@@ -7,6 +7,7 @@ Generación de SCRIP para obtener insights del negoció y un reporte PDF automá
 - [Productos entregados](#productos-entregados)
 - [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-(EDA))
 - [Documentación del flujo del Scrip.py](#documentación-del-flujo-del-scrip.py)
+- [Descripción de los dashboards generados](#dashboards)
 - [Ejecución](#Ejecución)
 
 
@@ -17,6 +18,8 @@ El proyecto "Crabi Data Analysis" se centra en analizar y comprender diversos as
 ## Productos entregados
 
 -Se realizó un código en el archivo [Scrip](./Scrip.py) que al ejecutarse responde en consola las diferentes preguntas propuestas  y  genera un archivo PDF con un [Informe de Resultados](./informe.pdf) (el código que permite generar el informe se encuentra en el archivo ['Informe.py'](./Informe.py)), este Scrip garantiza la capacidad de recalcular resultados con cambios en los datos fuente. 
+
+-[Dashboards en tableau](https://public.tableau.com/shared/TDYMD4ZQW?:display_count=n&:origin=viz_share_link) 
 
 Nota: Se abordo el escenario, donde se tiene los archivos almacenadas en un carpeta local pero, se tiene la posibilidad de conectar directamente a Google Drive desde la API de Google Cloud.
  
@@ -63,6 +66,22 @@ Objetivo del Notebook
 El notebook sirve como una guía completa y detallada del proceso seguido para llegar a los resultados presentados en el script Python (script.py). Facilita la comprensión del análisis realizado, las decisiones tomadas y proporciona transparencia en cada etapa del flujo de trabajo.
 
 Nota: Se recomienda revisar el Flujo Documentado del Proceso para obtener una comprensión más profunda de la solución propuesta y el enfoque adoptado durante el análisis de los datos de Crabi.
+
+## Dashboards
+
+Nota: si paramos el cursor sobre los gráficos se muestran diferentes detalles. 
+
+1.- Amount Mensual: se presenta un panorama general del gasto e ingresos mensual de Crabi, con un niveles de detalle por tipo de cobertura y de acuerdo al tipo de incidente identificado. 
+
+![Amount_Mensual](./Graficos/AmountMensual.png)
+
+2.- Amount por Partner: se presenta el gasto promedio por tipo de partner, así cómo la cantidad de siniestros que atiende cada partner.
+
+![Amount_Partner](./Graficos/AmountPartner.png)
+
+3.- Siniestros: se describen a los siniestros con diferentes perspectivas como lo es, los siniestros por tipo de cobertura, por partner, en que horarios suelen ocurrir una mayor cantidad de estos y la distribución de la edad, con detalles para cada tabla de sus amounts. 
+
+![SiniestrosTa](./Graficos/SiniestrosTa.png)
 
 ## Ejecución
 
