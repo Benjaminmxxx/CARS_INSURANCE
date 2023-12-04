@@ -1,6 +1,6 @@
 # CARS_INSURANCE
-Generación de SCRIP para obtener insights del negoció y un reporte PDF automático.
-
+-Generación de SCRIP para obtener insights del negoció y un reporte PDF automático.
+-Generación de dashboard para entender de manera visual algunos insights.
 
 ## Tabla de Contenidos
 - [Descripción General](#descripción-general)
@@ -19,7 +19,7 @@ El proyecto "Crabi Data Analysis" se centra en analizar y comprender diversos as
 
 -Se realizó un código en el archivo [Scrip](./Scrip.py) que al ejecutarse responde en consola las diferentes preguntas propuestas  y  genera un archivo PDF con un [Informe de Resultados](./informe.pdf) (el código que permite generar el informe se encuentra en el archivo ['Informe.py'](./Informe.py)), este Scrip garantiza la capacidad de recalcular resultados con cambios en los datos fuente. 
 
--[Dashboards en tableau](https://public.tableau.com/shared/TDYMD4ZQW?:display_count=n&:origin=viz_share_link) se realizó una conexión a los datos proporcionados desde google drive, para asegurar un dashboard actualizado respecto a nuevos datos que se ingresen.
+-[Dashboards en tableau](https://public.tableau.com/app/profile/benjam.n.n.ez/viz/PruebaTecnica_17014909748810/AmountMensual) se realizó una conexión a los datos proporcionados desde google drive, para asegurar un dashboard actualizado respecto a nuevos datos que se ingresen.
 
 Nota: Se abordo el escenario, donde se tiene los archivos almacenados en un carpeta local aunque, se estudio la posibilidad de conectar directamente a Google Drive desde la API de Google Cloud, y es posible pero, tomaría más tiempo.
  
@@ -68,6 +68,8 @@ El notebook sirve como una guía completa y detallada del proceso seguido para l
 Nota: Se recomienda revisar el Flujo Documentado del Proceso para obtener una comprensión más profunda de la solución propuesta y el enfoque adoptado durante el análisis de los datos de Crabi.
 
 ## Dashboards
+
+[Dashboards en tableau](https://public.tableau.com/app/profile/benjam.n.n.ez/viz/PruebaTecnica_17014909748810/AmountMensual)
 
 Nota: si paramos el cursor sobre los gráficos se muestran diferentes detalles. 
 
