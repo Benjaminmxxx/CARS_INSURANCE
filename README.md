@@ -89,11 +89,11 @@ Nota: si paramos el cursor sobre los gráficos se muestran diferentes detalles.
 
 -Clonar el repositorio desde GitHub.
 
--Instalar (pip install requierements.txt) mediante la consulta el archivo [requierements.txt](./requirements.txt)
+-Instalar (pip install requierements.txt) las librerías necesarias ubicadas en el archivo [requierements.txt](./requirements.txt)
 
 -Ejecutar el script en Python para realizar el análisis.
 
--Explorar los resultados en la consola de salida y o en el informe generado en la carpeta.
+-Explorar los resultados en la consola de salida y/o en el informe generado en la carpeta.
 
 
 
